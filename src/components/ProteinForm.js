@@ -21,6 +21,7 @@ function ProteinForm(props) {
               name="protein"
               checked={props.protein.includes("Barbacoa")}
               onChange={props.handleChange}
+        
             />
             <img src={barbacoa} height="100px" width="100px" alt="barbacoa" />
             <label htmlFor="barbacoa">Barbacoa</label>
